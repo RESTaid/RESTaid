@@ -22,13 +22,13 @@ Exported:
         Cache: retreives a copy of the cache created from a function listed above.
    
     Rest Functions: Note: only OData 4.0+ will be impelmented.
-        Legs: Builds array of entry tables
+        Legs: Builds array of all tables (Functions, Complex Types, Enum, etc too!)
         Leg: traverses result of legs
-        Tables: Builds array of all tables
+        Tables: Builds array of entry ("entity") tables
         Table: traverses result of Tables
         Columns: Builds array of all columns
         Column: traverses result of Columns
-        Records: Builds array of all records
+        Records: Builds array of all records. Use this to get your data.
         Record: traverses result of Records
-        Build: preforms filter, select, orderby, expand, etc.
+        Aid: Helps newcomers to REST and OData to preform actions (filter, select, orderby, expand, etc.). Advanced uses will just use Records and Record.
         
