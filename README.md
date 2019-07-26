@@ -30,5 +30,6 @@ Exported:
         Column: traverses result of Columns
         Records: Builds array of all records. Use this to get your data.
         Record: traverses result of Records
-        Aid: Helps newcomers to REST and OData to preform actions (filter, select, orderby, expand, etc.). Advanced uses will just use Records and Record.
+        Aid: Helps newcomers to REST and OData to preform actions (filter, select, orderby, 
+            expand, etc.). Advanced uses will just use Records and Record.
         
